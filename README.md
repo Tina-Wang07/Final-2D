@@ -1,8 +1,10 @@
 # GDIM 31 Final: 2D
 ## Devlogs
 ### Milestone 1
-https://docs.google.com/drawings/d/1Uz9IH4kHUC908dmnnynaFP_cJwf06g-x0o47f8q6RdM/edit?usp=sharing
 11.23 I finished the A/D movement and animation of player kicking, Idle, jumping and walking. And also I finished the tile map.
+https://docs.google.com/document/d/1SYW49XZWZWClZ_oHEewMA39_3Rs7P_EdozaBswgfE1c/edit?usp=sharing
+The first problem is kick the item. At the first, I click space, the kicking animation can played. But the item were not move. So I used Debug.Log() to check the code and found that the kick object was turning on, but the collider wasn't detecting the item. So I fixed KickLeft and KickRight Box Collider 2D setting (let the collider more big and cover the player one side), and turned on Is Trigger, and used OnTriggerEnter2D() in KickAttack.cs. 
+Another problem is setting the time and checklist. At first, checklist wasn't appeared, and I used List<GameObject> in GameController to saved the item that will be kicked. And I created ChecklistItem prefab, and used Instantiate() in HUD.cs to create checklist automatically. And I let Checklist, ChecklistItem prefab and timer text connected. Also, for the animator, I put walking, jumping, Idle and kicking in the map. And made line to let them connected.  
 
 ### Milestone 2
 TODO.
