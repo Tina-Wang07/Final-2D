@@ -1,7 +1,8 @@
 # GDIM 31 Final: 2D
 ## Devlogs
 ### Milestone 1
-TODO.
+https://docs.google.com/drawings/d/1Uz9IH4kHUC908dmnnynaFP_cJwf06g-x0o47f8q6RdM/edit?usp=sharing
+11.23 I finished the A/D movement and animation of player kicking, Idle, jumping and walking. And also I finished the tile map.
 
 ### Milestone 2
 TODO.
