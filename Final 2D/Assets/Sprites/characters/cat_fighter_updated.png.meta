@@ -67,7 +67,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,8 +80,21 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -100,13 +113,14 @@ TextureImporter:
       name: cat_fighter_updated_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 460
-        width: 18
-        height: 29
+        x: 0
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -121,13 +135,14 @@ TextureImporter:
       name: cat_fighter_updated_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 460
-        width: 16
-        height: 29
+        x: 50
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -142,13 +157,14 @@ TextureImporter:
       name: cat_fighter_updated_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 460
-        width: 17
-        height: 29
+        x: 100
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -160,79 +176,17 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_walk_1
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 460
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc315d009050448f380320c6cfbd4300
-      internalID: 1478358011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_walk_2
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 459
-        width: 18
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a3191355fb46486fa21366f21f14d38
-      internalID: 376300268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_walk_3
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 460
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 060a4e61f778f4d4d82927e3b6ee48c3
-      internalID: -67948563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cat_fighter_updated_6
       rect:
         serializedVersion: 2
-        x: 314
-        y: 460
-        width: 15
-        height: 26
+        x: 300
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -244,37 +198,17 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_jumping
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 462
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d264cbd3b0e34cd5bc4bab726df5144
-      internalID: -134689554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cat_fighter_updated_8
       rect:
         serializedVersion: 2
-        x: 412
-        y: 462
-        width: 23
-        height: 28
+        x: 400
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -289,13 +223,14 @@ TextureImporter:
       name: cat_fighter_updated_9
       rect:
         serializedVersion: 2
-        x: 464
-        y: 463
-        width: 21
-        height: 27
+        x: 450
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -310,13 +245,14 @@ TextureImporter:
       name: cat_fighter_updated_10
       rect:
         serializedVersion: 2
-        x: 14
-        y: 410
-        width: 16
-        height: 28
+        x: 0
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -331,13 +267,14 @@ TextureImporter:
       name: cat_fighter_updated_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 410
-        width: 16
-        height: 27
+        x: 50
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -352,13 +289,14 @@ TextureImporter:
       name: cat_fighter_updated_12
       rect:
         serializedVersion: 2
-        x: 114
-        y: 410
-        width: 16
-        height: 27
+        x: 100
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -373,13 +311,14 @@ TextureImporter:
       name: cat_fighter_updated_13
       rect:
         serializedVersion: 2
-        x: 164
-        y: 410
-        width: 17
-        height: 27
+        x: 150
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -394,13 +333,14 @@ TextureImporter:
       name: cat_fighter_updated_14
       rect:
         serializedVersion: 2
-        x: 214
-        y: 410
-        width: 36
-        height: 28
+        x: 200
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -415,13 +355,14 @@ TextureImporter:
       name: cat_fighter_updated_15
       rect:
         serializedVersion: 2
-        x: 265
-        y: 410
-        width: 35
-        height: 28
+        x: 250
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -436,13 +377,14 @@ TextureImporter:
       name: cat_fighter_updated_16
       rect:
         serializedVersion: 2
-        x: 314
-        y: 410
-        width: 15
-        height: 29
+        x: 300
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -457,13 +399,14 @@ TextureImporter:
       name: cat_fighter_updated_17
       rect:
         serializedVersion: 2
-        x: 364
-        y: 410
-        width: 15
-        height: 29
+        x: 350
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -478,13 +421,14 @@ TextureImporter:
       name: cat_fighter_updated_18
       rect:
         serializedVersion: 2
-        x: 412
-        y: 410
-        width: 34
-        height: 28
+        x: 400
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -499,13 +443,14 @@ TextureImporter:
       name: cat_fighter_updated_19
       rect:
         serializedVersion: 2
-        x: 463
-        y: 410
-        width: 24
-        height: 28
+        x: 450
+        y: 400
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -520,13 +465,14 @@ TextureImporter:
       name: cat_fighter_updated_20
       rect:
         serializedVersion: 2
-        x: 488
-        y: 412
-        width: 10
-        height: 12
+        x: 0
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -541,13 +487,14 @@ TextureImporter:
       name: cat_fighter_updated_21
       rect:
         serializedVersion: 2
-        x: 14
-        y: 360
-        width: 18
-        height: 28
+        x: 50
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -562,13 +509,14 @@ TextureImporter:
       name: cat_fighter_updated_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 360
-        width: 18
-        height: 30
+        x: 100
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -583,13 +531,14 @@ TextureImporter:
       name: cat_fighter_updated_23
       rect:
         serializedVersion: 2
-        x: 114
-        y: 360
-        width: 16
-        height: 27
+        x: 150
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -604,13 +553,14 @@ TextureImporter:
       name: cat_fighter_updated_24
       rect:
         serializedVersion: 2
-        x: 164
-        y: 360
-        width: 20
-        height: 29
+        x: 200
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -625,13 +575,14 @@ TextureImporter:
       name: cat_fighter_updated_25
       rect:
         serializedVersion: 2
-        x: 215
-        y: 360
-        width: 18
-        height: 30
+        x: 250
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -646,13 +597,14 @@ TextureImporter:
       name: cat_fighter_updated_26
       rect:
         serializedVersion: 2
-        x: 265
-        y: 360
-        width: 18
-        height: 30
+        x: 300
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -667,13 +619,14 @@ TextureImporter:
       name: cat_fighter_updated_27
       rect:
         serializedVersion: 2
-        x: 317
-        y: 360
-        width: 16
-        height: 30
+        x: 350
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -688,13 +641,14 @@ TextureImporter:
       name: cat_fighter_updated_28
       rect:
         serializedVersion: 2
-        x: 364
-        y: 360
-        width: 20
-        height: 30
+        x: 400
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -709,13 +663,14 @@ TextureImporter:
       name: cat_fighter_updated_29
       rect:
         serializedVersion: 2
-        x: 417
-        y: 360
-        width: 16
-        height: 30
+        x: 450
+        y: 350
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -730,13 +685,14 @@ TextureImporter:
       name: cat_fighter_updated_30
       rect:
         serializedVersion: 2
-        x: 464
-        y: 361
-        width: 17
-        height: 30
+        x: 0
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -751,13 +707,14 @@ TextureImporter:
       name: cat_fighter_updated_31
       rect:
         serializedVersion: 2
-        x: 13
-        y: 311
-        width: 18
-        height: 30
+        x: 50
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -772,13 +729,14 @@ TextureImporter:
       name: cat_fighter_updated_32
       rect:
         serializedVersion: 2
-        x: 56
-        y: 309
-        width: 29
-        height: 26
+        x: 100
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -793,13 +751,14 @@ TextureImporter:
       name: cat_fighter_updated_33
       rect:
         serializedVersion: 2
-        x: 101
-        y: 327
-        width: 11
-        height: 4
+        x: 150
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -814,13 +773,14 @@ TextureImporter:
       name: cat_fighter_updated_34
       rect:
         serializedVersion: 2
-        x: 113
-        y: 327
-        width: 5
-        height: 4
+        x: 200
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -832,22 +792,111 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_fighter_updated_35
+      name: cat_fighter_updated_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 311
-        width: 29
-        height: 17
+        x: 150
+        y: 450
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d06621d76f1d74f7283bc4c543af1906
-      internalID: 1915059881
+      spriteID: 2deab7deb04874754a97baf8e76d9d38
+      internalID: 1926178955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_fighter_updated_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 450
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40658042596b400f920625aa6e13581
+      internalID: 164165247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_fighter_updated_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 450
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e5eae6a114243b9b87359f956a8fa0
+      internalID: 1808757952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_fighter_updated_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 450
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2689f26c474431ba7fb91763bab673
+      internalID: 1732729859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat_fighter_updated_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 300
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fc5c7449eeb47d2bd0dc7c6596d197
+      internalID: -1954466652
       vertices: []
       indices: 
       edges: []
@@ -856,19 +905,20 @@ TextureImporter:
       name: cat_fighter_updated_36
       rect:
         serializedVersion: 2
-        x: 205
-        y: 310
-        width: 29
-        height: 22
+        x: 300
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c04b84ba436c4551ab8f6fbdc5dd16f
-      internalID: -547257902
+      spriteID: c8d5c4b94301e4adf9a5fa49faaec31d
+      internalID: 1025109636
       vertices: []
       indices: 
       edges: []
@@ -877,19 +927,20 @@ TextureImporter:
       name: cat_fighter_updated_37
       rect:
         serializedVersion: 2
-        x: 266
-        y: 310
-        width: 17
-        height: 27
+        x: 350
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c7127c965f8f42c1908fc4398a218da
-      internalID: 1840192827
+      spriteID: 707ce71802ff4425eaf29ab3568b9d50
+      internalID: 877658296
       vertices: []
       indices: 
       edges: []
@@ -898,19 +949,20 @@ TextureImporter:
       name: cat_fighter_updated_38
       rect:
         serializedVersion: 2
-        x: 312
-        y: 310
-        width: 27
-        height: 28
+        x: 400
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22114dda9c45942e1bd4f2833bd206ff
-      internalID: 485418781
+      spriteID: d858c209678174e11bdb882a800a9649
+      internalID: -2014441230
       vertices: []
       indices: 
       edges: []
@@ -919,19 +971,20 @@ TextureImporter:
       name: cat_fighter_updated_39
       rect:
         serializedVersion: 2
-        x: 363
-        y: 310
-        width: 25
-        height: 28
+        x: 450
+        y: 300
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37eb94afac04744b79d69537dfd37bc7
-      internalID: -122764565
+      spriteID: d26b241f0d5bc49e2ae6b8814a65fcea
+      internalID: -566626529
       vertices: []
       indices: 
       edges: []
@@ -940,19 +993,20 @@ TextureImporter:
       name: cat_fighter_updated_40
       rect:
         serializedVersion: 2
-        x: 414
-        y: 310
-        width: 23
-        height: 29
+        x: 0
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692c1156615924cf0845651686a43dad
-      internalID: -195183584
+      spriteID: 92a64dcde4a0c41288c678fdca96471a
+      internalID: -217952249
       vertices: []
       indices: 
       edges: []
@@ -961,19 +1015,20 @@ TextureImporter:
       name: cat_fighter_updated_41
       rect:
         serializedVersion: 2
-        x: 465
-        y: 310
-        width: 21
-        height: 29
+        x: 50
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7452a9d79c6d949ac8b7da82cec846bc
-      internalID: 1140259586
+      spriteID: 20227e0513dc74394b6d2830cfa55f2e
+      internalID: -478697693
       vertices: []
       indices: 
       edges: []
@@ -982,187 +1037,196 @@ TextureImporter:
       name: cat_fighter_updated_42
       rect:
         serializedVersion: 2
-        x: 105
-        y: 310
-        width: 29
-        height: 14
+        x: 100
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5e8af36ccb0e42ab9f7b855003ee5d5
-      internalID: 892626367
+      spriteID: 10cf24b8e759c4553ba24fabe6265cd4
+      internalID: 369807226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_1
+      name: cat_fighter_updated_43
       rect:
         serializedVersion: 2
-        x: 14
-        y: 260
-        width: 16
-        height: 29
+        x: 150
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87161fbcd998b408591044863b76d01c
-      internalID: 1856982647
+      spriteID: 4ca8841ce5c9340e5af96c478ef02b1d
+      internalID: -1280966093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_2
+      name: cat_fighter_updated_44
       rect:
         serializedVersion: 2
-        x: 63
-        y: 260
-        width: 24
-        height: 29
+        x: 200
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d6f1c5df6df40259dc84d7ea2595eb
-      internalID: 1621851709
+      spriteID: c26260047586e4073830f53d41af4d66
+      internalID: -1984056984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_3
+      name: cat_fighter_updated_45
       rect:
         serializedVersion: 2
-        x: 114
-        y: 260
-        width: 23
-        height: 29
+        x: 250
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05d5945dc109c4f2b9981e26df536125
-      internalID: 2098235686
+      spriteID: 94ecf63176fc1465d9a5e33dc570ad88
+      internalID: -762522729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_4
+      name: cat_fighter_updated_46
       rect:
         serializedVersion: 2
-        x: 163
-        y: 260
-        width: 25
-        height: 29
+        x: 300
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8927b84b6b5124a4b8e9074c52f74606
-      internalID: 124252860
+      spriteID: d93929e6ccb3c41cda79d70b30ca0447
+      internalID: 1173735791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_5
+      name: cat_fighter_updated_47
       rect:
         serializedVersion: 2
-        x: 214
-        y: 260
-        width: 24
-        height: 29
+        x: 350
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6985db72c7cbd42be9c0d5e32c43374a
-      internalID: 576068438
+      spriteID: 978978dc5afcb4a7abee7da398b6f0f4
+      internalID: 2096001531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_6
+      name: cat_fighter_updated_48
       rect:
         serializedVersion: 2
-        x: 263
-        y: 260
-        width: 24
-        height: 29
+        x: 400
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8623ddd22d72d465388310ac3c73010a
-      internalID: 466137182
+      spriteID: 986836bb5b37240b7aa221f13c1a1224
+      internalID: 129874552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_7
+      name: cat_fighter_updated_49
       rect:
         serializedVersion: 2
-        x: 314
-        y: 260
-        width: 23
-        height: 29
+        x: 450
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da56cfd2e13f4e808ac1e3637f4642d
-      internalID: 1291878117
+      spriteID: 673b06f19909941f4a00ee534b1cd180
+      internalID: 1921083815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_8
+      name: cat_fighter_updated_50
       rect:
         serializedVersion: 2
-        x: 363
-        y: 260
-        width: 17
-        height: 29
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb42340152e2d4a9eaa466f7fdfb909e
-      internalID: 1177342240
+      spriteID: d62a075e2c7544f438be9f249024b837
+      internalID: -1745328939
       vertices: []
       indices: 
       edges: []
@@ -1171,40 +1235,42 @@ TextureImporter:
       name: cat_fighter_updated_51
       rect:
         serializedVersion: 2
-        x: 411
-        y: 260
-        width: 17
-        height: 29
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0b5bf2957a34c96877df9379b942a3
-      internalID: -1729263108
+      spriteID: c35c6da5a977e4d3ebc0844cc1411b34
+      internalID: -1822033220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cat_kick_9
+      name: cat_fighter_updated_52
       rect:
         serializedVersion: 2
-        x: 463
-        y: 260
-        width: 22
-        height: 29
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 790ff293241bd4ddc99add3c52920257
-      internalID: 66428944
+      spriteID: af035211de7cb4241b782ad69eca19c6
+      internalID: 268034707
       vertices: []
       indices: 
       edges: []
@@ -1213,19 +1279,20 @@ TextureImporter:
       name: cat_fighter_updated_53
       rect:
         serializedVersion: 2
-        x: 12
-        y: 210
-        width: 26
-        height: 27
+        x: 150
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b63269b71b66436485b4ae3425d2289
-      internalID: 272869143
+      spriteID: 5808606681c564c189c924353697c8b1
+      internalID: -1496727014
       vertices: []
       indices: 
       edges: []
@@ -1234,19 +1301,20 @@ TextureImporter:
       name: cat_fighter_updated_54
       rect:
         serializedVersion: 2
-        x: 62
-        y: 210
-        width: 26
-        height: 27
+        x: 200
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af770af2e3baf4e3fbf34696be4de32f
-      internalID: 1686038828
+      spriteID: f390f564b201f47b0ada5f4faddd8c02
+      internalID: -1831979806
       vertices: []
       indices: 
       edges: []
@@ -1255,19 +1323,20 @@ TextureImporter:
       name: cat_fighter_updated_55
       rect:
         serializedVersion: 2
-        x: 114
-        y: 210
-        width: 17
-        height: 29
+        x: 250
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bd91382d8f2940e38e9ed1af589ca15
-      internalID: -1973949496
+      spriteID: dfe3bd2d687e34186a4b8d66f1e4c4ea
+      internalID: -819205778
       vertices: []
       indices: 
       edges: []
@@ -1276,19 +1345,20 @@ TextureImporter:
       name: cat_fighter_updated_56
       rect:
         serializedVersion: 2
-        x: 164
-        y: 210
-        width: 23
-        height: 28
+        x: 300
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39be6e0d1c3e4416bcf32f3dc24f428
-      internalID: -1942243027
+      spriteID: dbb8520f91e0346c89a0f42c13878098
+      internalID: 213678985
       vertices: []
       indices: 
       edges: []
@@ -1297,19 +1367,20 @@ TextureImporter:
       name: cat_fighter_updated_57
       rect:
         serializedVersion: 2
-        x: 214
-        y: 210
-        width: 19
-        height: 28
+        x: 350
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b18ce6ef32a0416bbc2f03f2f84abe4
-      internalID: 70054235
+      spriteID: 8a7e7d0c6445743f3bf73b461558c0e4
+      internalID: -1417589808
       vertices: []
       indices: 
       edges: []
@@ -1318,19 +1389,20 @@ TextureImporter:
       name: cat_fighter_updated_58
       rect:
         serializedVersion: 2
-        x: 265
-        y: 210
-        width: 16
-        height: 26
+        x: 400
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588b671532f764ced943eb605392d8ca
-      internalID: 733089422
+      spriteID: 8697a6a3c6c454cb1988be003cf75d64
+      internalID: 2065176514
       vertices: []
       indices: 
       edges: []
@@ -1339,87 +1411,26 @@ TextureImporter:
       name: cat_fighter_updated_59
       rect:
         serializedVersion: 2
-        x: 307
-        y: 210
-        width: 26
-        height: 25
+        x: 450
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8191eb98efa5047edb95fbbe6a1ab0f2
-      internalID: -443488719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_fighter_updated_60
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 210
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 091e22ffbb07e403d94a85871bdabfaf
-      internalID: -852062469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_fighter_updated_61
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 210
-        width: 33
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c05d06771cef9400d9dd4bd0a1268111
-      internalID: -1789616050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cat_fighter_updated_62
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 210
-        width: 19
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20210a75f5ed841cd8d7fdc5394ecb7e
-      internalID: -896685937
+      spriteID: 7b112eaf138254fa49705df029d4ded0
+      internalID: -114232452
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -1429,6 +1440,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       cat_fighter_updated_0: -1063133488
       cat_fighter_updated_1: 817525774
@@ -1453,46 +1468,43 @@ TextureImporter:
       cat_fighter_updated_27: -1120815575
       cat_fighter_updated_28: -1717723917
       cat_fighter_updated_29: 1720877894
+      cat_fighter_updated_3: 1926178955
       cat_fighter_updated_30: -2087764430
       cat_fighter_updated_31: 1591581585
       cat_fighter_updated_32: -1252240687
       cat_fighter_updated_33: 135366785
       cat_fighter_updated_34: -1286833475
-      cat_fighter_updated_35: 1915059881
-      cat_fighter_updated_36: -547257902
-      cat_fighter_updated_37: 1840192827
-      cat_fighter_updated_38: 485418781
-      cat_fighter_updated_39: -122764565
-      cat_fighter_updated_40: -195183584
-      cat_fighter_updated_41: 1140259586
-      cat_fighter_updated_42: 892626367
-      cat_fighter_updated_51: -1729263108
-      cat_fighter_updated_53: 272869143
-      cat_fighter_updated_54: 1686038828
-      cat_fighter_updated_55: -1973949496
-      cat_fighter_updated_56: -1942243027
-      cat_fighter_updated_57: 70054235
-      cat_fighter_updated_58: 733089422
-      cat_fighter_updated_59: -443488719
+      cat_fighter_updated_35: -1954466652
+      cat_fighter_updated_36: 1025109636
+      cat_fighter_updated_37: 877658296
+      cat_fighter_updated_38: -2014441230
+      cat_fighter_updated_39: -566626529
+      cat_fighter_updated_4: 164165247
+      cat_fighter_updated_40: -217952249
+      cat_fighter_updated_41: -478697693
+      cat_fighter_updated_42: 369807226
+      cat_fighter_updated_43: -1280966093
+      cat_fighter_updated_44: -1984056984
+      cat_fighter_updated_45: -762522729
+      cat_fighter_updated_46: 1173735791
+      cat_fighter_updated_47: 2096001531
+      cat_fighter_updated_48: 129874552
+      cat_fighter_updated_49: 1921083815
+      cat_fighter_updated_5: 1808757952
+      cat_fighter_updated_50: -1745328939
+      cat_fighter_updated_51: -1822033220
+      cat_fighter_updated_52: 268034707
+      cat_fighter_updated_53: -1496727014
+      cat_fighter_updated_54: -1831979806
+      cat_fighter_updated_55: -819205778
+      cat_fighter_updated_56: 213678985
+      cat_fighter_updated_57: -1417589808
+      cat_fighter_updated_58: 2065176514
+      cat_fighter_updated_59: -114232452
       cat_fighter_updated_6: 430903043
-      cat_fighter_updated_60: -852062469
-      cat_fighter_updated_61: -1789616050
-      cat_fighter_updated_62: -896685937
+      cat_fighter_updated_7: 1732729859
       cat_fighter_updated_8: 1732786496
       cat_fighter_updated_9: 1778590561
-      cat_jumping: -134689554
-      cat_kick_1: 1856982647
-      cat_kick_2: 1621851709
-      cat_kick_3: 2098235686
-      cat_kick_4: 124252860
-      cat_kick_5: 576068438
-      cat_kick_6: 466137182
-      cat_kick_7: 1291878117
-      cat_kick_8: 1177342240
-      cat_kick_9: 66428944
-      cat_walk_1: 1478358011
-      cat_walk_2: 376300268
-      cat_walk_3: -67948563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

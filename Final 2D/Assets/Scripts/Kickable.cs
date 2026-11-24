@@ -26,19 +26,31 @@ public class Kickable : MonoBehaviour
         // Add the input force to the rigidbody to make the item fly.
 
         // Let the GameController know this object was kicked.
+        
+        _wasKicked = true;
+
+        _rigidbody.AddForce(force, ForceMode2D.Impulse);
+
+        _gameController.Kicked(gameObject);
+        
     }
 
     // ------------------------------------------------------------------------
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // If this object was kicked, explode.
+        if (_wasKicked)
+        {
+            Explode();
+        }
     }
 
     // ------------------------------------------------------------------------
     private void Explode()
     {
         // Create the explosion VFX.
-
+    
         // Destroy this item.
+        Destroy(gameObject);
     }
 }

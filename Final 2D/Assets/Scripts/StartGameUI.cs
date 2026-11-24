@@ -9,6 +9,7 @@ public class StartGameUI : MonoBehaviour
     // You don't need to code in this method :)
     public void StartButton()
     {
+        Debug.Log("Start button clicked");
         _gameController.StartGame();
     }
 }   
