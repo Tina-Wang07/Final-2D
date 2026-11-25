@@ -12,7 +12,7 @@ TODO.
 ## Playtesting Reports
 ### Milestone 1
 #### Report 1
-TODO.
+The gameplay worked well, and I didn’t run into any problems while playing. One small visual issue is that some of the wall tiles don’t line up.
 
 #### Report 2
 TODO.
