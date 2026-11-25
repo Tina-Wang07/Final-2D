@@ -15,7 +15,7 @@ TODO.
 The gameplay worked well, and I didn’t run into any problems while playing. One small visual issue is that some of the wall tiles don’t line up.
 
 #### Report 2
-TODO.
+The game was quite interesting with nice responsive inputs. I also really like the blocky design/texture packet that makes the game feel old school and nostalgic.
 
 ### Milestone 2
 #### Report 1
